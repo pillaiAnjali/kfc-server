@@ -1,5 +1,4 @@
-{
-    "menu": [
+[
       {
         "item_name": "Chicken Bucket",
         "description": "A bucket of delicious KFC fried chicken.",
@@ -24,5 +23,4 @@
         "price": 2.99,
         "image_url": "https://example.com/coleslaw.jpg"
       }
-    ]
-  }
+]
