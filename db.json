@@ -1,0 +1,28 @@
+{
+    "menu": [
+      {
+        "item_name": "Chicken Bucket",
+        "description": "A bucket of delicious KFC fried chicken.",
+        "price": 20.99,
+        "image_url": "https://example.com/chicken_bucket.jpg"
+      },
+      {
+        "item_name": "Zinger Burger",
+        "description": "A spicy, crispy chicken burger.",
+        "price": 5.99,
+        "image_url": "https://example.com/zinger_burger.jpg"
+      },
+      {
+        "item_name": "Mashed Potatoes",
+        "description": "Creamy mashed potatoes with KFC gravy.",
+        "price": 3.99,
+        "image_url": "https://example.com/mashed_potatoes.jpg"
+      },
+      {
+        "item_name": "Coleslaw",
+        "description": "Fresh and crunchy coleslaw salad.",
+        "price": 2.99,
+        "image_url": "https://example.com/coleslaw.jpg"
+      }
+    ]
+  }

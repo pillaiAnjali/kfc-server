@@ -3,7 +3,7 @@ const jsonServer=require("json-server")
 const server = jsonServer.create()
 
 //path for menu.json
-const router = jsonServer.router("menu.json")
+const router = jsonServer.router("db.json")
 
 //return middleware used by json server 
 const middleware = jsonServer.defaults()
