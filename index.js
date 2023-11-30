@@ -2,9 +2,9 @@ const jsonServer=require("json-server")
 
 const server = jsonServer.create()
 
-//path for menu.json
+//path for db.json
 const router = jsonServer.router("db.json")
-
+const router1 = jsonServer.router("card.json")
 //return middleware used by json server 
 const middleware = jsonServer.defaults()
 
@@ -13,6 +13,7 @@ const PORT = process.env.PORT || 3000
 
 server.use(middleware)
 server.use(router)
+server.use(router1)
 
 //app listen
 server.listen(PORT,()=>{
