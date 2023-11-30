@@ -4,7 +4,6 @@ const server = jsonServer.create()
 
 //path for db.json
 const router = jsonServer.router("db.json")
-const router1 = jsonServer.router("card.json")
 //return middleware used by json server 
 const middleware = jsonServer.defaults()
 
